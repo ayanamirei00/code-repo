@@ -1,9 +1,7 @@
 
-http://192.168.38.205:82/wuyu/scorecalculationsystem.git
 
-refs/heads/master
 
-public static final String url = "jdbc:mysql://192.168.38.205/pinfen?
+public static final String url = "jdbc:mysql://localhost/testdb?
 
 useUnicode=true&characterEncoding=UTF-8";
 
