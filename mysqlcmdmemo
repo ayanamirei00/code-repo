@@ -1,5 +1,22 @@
 
+http://blog.sina.com.cn/s/blog_48f683270100edx5.html
 
+CREATE DATABASE mydb;
+USE mydb5;
+CREATE TABLE news
+(
+      news_id int not null auto_increment,
+      news_title varchar(100) not null,
+      news_contents text not null,
+      news_date datetime not null,
+      primary key(news_id)
+)default charset=utf8;
+set names gb2312;  
+INSERT INTO news VALUES(null, '新闻1', '111111', now());
+INSERT INTO news VALUES(null, '新闻2', '222222', now());
+INSERT INTO news VALUES(null, '新闻3', '333333', now());
+INSERT INTO news VALUES(null, '新闻4', '444444', now());
+INSERT INTO news VALUES(null, '新闻5', '555555', now());
 
 public static final String url = "jdbc:mysql://localhost/testdb?
 
