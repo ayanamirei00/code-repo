@@ -43,3 +43,9 @@ JSP表达式：<%="hello world" %> <br />
 	out.println(str);
 	%>
 </body>
+
+项目右键 -> export war -> tomcat/webapps
+cd JSPStudy
+cd WebContent
+//* 当前目录的所有文件
+jar -cvf JSPStudy.war *
