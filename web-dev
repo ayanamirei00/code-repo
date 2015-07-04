@@ -52,3 +52,5 @@ jar -cvf JSPStudy.war *
 //这个注释会显示在“显示源文件里面”，日期也是显示源代码中输出
 <!-- this is body -->
 <!-- this is body <%=new java.util.Date().toString()%>-->
+
+D:\迅雷下载\eclipse-jee-mars-R-win32\eclipse
