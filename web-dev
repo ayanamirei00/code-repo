@@ -31,3 +31,4 @@ Eclipse -> Preference -> Web -> JSP Files -> ISO-8859-1(ISO Latin-1):UFT-8
 Web project -> build path -> add library -> server (tomcat)
 
 http://localhost:8080/JSPStudy/01/NewFile1.jsp 注意区分大小写，必须和project中的大小写一致
+
