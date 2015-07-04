@@ -22,5 +22,7 @@ General --> Java --> Installed JREs --> jdk --> select JDK (not the default jre)
 General --> Workspace --> Default (GBK) --> other UTF-8
 Eclipse Color Theme
 
+Tomcat server plugin: http://blog.chinaunix.net/uid-25434387-id-167705.html
+
 Eclipse -> New -> Dynamic Web Project
 
