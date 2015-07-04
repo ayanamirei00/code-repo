@@ -19,4 +19,8 @@ CATALINA_HOME lib bin
 CATALINA_OPTS
 
 General --> Java --> Installed JREs --> jdk --> select JDK (not the default jre)
+General --> Workspace --> Default (GBK) --> other UTF-8
+Eclipse Color Theme
+
+Eclipse -> New -> Dynamic Web Project
 
