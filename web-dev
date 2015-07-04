@@ -26,3 +26,7 @@ Tomcat server plugin: http://blog.chinaunix.net/uid-25434387-id-167705.html
 
 Eclipse -> New -> Dynamic Web Project
 
+Eclipse -> Preference -> Web -> JSP Files -> ISO-8859-1(ISO Latin-1):UFT-8
+
+Web project -> build path -> add library -> server (tomcat)
+
