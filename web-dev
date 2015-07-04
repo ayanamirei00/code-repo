@@ -1,0 +1,22 @@
+cmd 环境变量影响系统服务，需要重启才能加载到cmd
+
+JAVA_HOME C:\java\jdk1.8.0_25
+PATH %JAVA_HOME%\bin;.
+CLASSPATH %JAVA_HOME%\lib\tools.jar; %JAVA_HOME%\lib\dt.jar;.
+dt.jar:JAVA运行环境的类库，主要Swing的包；
+tools.jar JAVA的工具类库，javac；
+
+tomcat\bin 启动关闭tomcat的脚本
+conf：各种配置文件，server.xml全局配置 tocat-users.xml web.xml web应用
+lib 依赖jar包
+temp 临时文件
+webapps web应用
+work 中间文件
+CATALINA_HOME
+c:\apache-tomcat
+CATALINA_BASE 运行多个tomcat实例独占工作目录，共享安装目录，独享 log，temp，webapps work，configs目录，
+CATALINA_HOME lib bin
+CATALINA_OPTS
+
+General --> Java --> Installed JREs --> jdk --> select JDK (not the default jre)
+
