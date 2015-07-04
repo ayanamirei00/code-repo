@@ -33,7 +33,7 @@ Web project -> build path -> add library -> server (tomcat)
 http://localhost:8080/JSPStudy/01/NewFile1.jsp 注意区分大小写，必须和project中的大小写一致
 
 <body>
-JSP表达式：<%="hello world" %>
+JSP表达式：<%="hello world" %> <br />
 <%!
   //全局变量
 	String str = "hello world";
