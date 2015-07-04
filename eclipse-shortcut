@@ -1,0 +1,36 @@
+syso -> system.out.println
+system.out.println(123456)
+system.out.println(true)
+system.out.println("tis is a string debug info")
+system.out.println(new JFrame())
+system.out.println 调用 toString
+
+system.out.println(new JFrame(){
+@override
+public String toString(){
+return super.toString();}});
+
+//red characters
+System.err.println("test");
+
+int[] ints = new int[20];
+try{
+    for (int i=0; i<21; i++){
+      ints[i]=i+1;
+      System.out.println(i+1);
+    }catch (exception e){
+      e.printStackTrace();
+      System.err.prinln("数组越界");
+    }
+    
+    Ctrl+1,F2+Enter (第一个修复方式)
+    Ctrl+D快捷删除行
+    Shift+Enter 换行
+    Ctrl+F11 运行
+    Alt+上下箭头 快速移动 
+    Ctrl+Alt+上下箭头 快速向上下复制
+    Ctrl+M 放大编辑视图 光标所在视图
+    Alt+/ 补全代码
+    Ctrl+/ 添加解除注释
+    /**单击回车
+    
